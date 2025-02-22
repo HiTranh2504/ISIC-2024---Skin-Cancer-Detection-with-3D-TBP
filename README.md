@@ -19,39 +19,4 @@ The following example illustrates two arbitrary algorithms (**Ca** and **Cb**) w
 
 ![pAUC Example](https://upload.wikimedia.org/wikipedia/commons/5/5f/Roc_curve.svg)
 
-## Repository Structure
-```
-├── data/                      # Dataset directory (not included in repository)
-├── notebooks/                 # Jupyter notebooks for EDA and model training
-├── models/                    # Trained model weights
-├── src/                       # Source code for data processing and training
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project documentation
-```
 
-## Getting Started
-### **1. Clone the repository**
-```sh
-git clone https://github.com/HiTranh2504/group-recommender-systems-for-movielens-100K-dataset.git
-cd ISIC-Skin-Cancer-Github
-```
-
-### **2. Install dependencies**
-```sh
-pip install -r requirements.txt
-```
-
-### **3. Download the dataset**
-- Visit [ISIC 2024 Challenge](https://www.kaggle.com/competitions/isic-2024-challenge) and download the dataset.
-- Extract and place it in the `data/` directory.
-
-### **4. Run the training script**
-```sh
-python src/train.py
-```
-
-## Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
